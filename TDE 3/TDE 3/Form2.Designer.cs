@@ -49,8 +49,8 @@
             this.txtNome = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnCadastrar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.dgvlista = new Guna.UI2.WinForms.Guna2DataGridView();
             this.label7 = new System.Windows.Forms.Label();
+            this.dgvlista = new Guna.UI2.WinForms.Guna2DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -80,11 +80,11 @@
             // guna2PictureBox2
             // 
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.Location = new System.Drawing.Point(517, 424);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(527, 424);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
-            this.guna2PictureBox2.Size = new System.Drawing.Size(245, 196);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox2.Size = new System.Drawing.Size(243, 196);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 1;
             this.guna2PictureBox2.TabStop = false;
             this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
@@ -340,6 +340,18 @@
             this.guna2GradientPanel1.Size = new System.Drawing.Size(516, 299);
             this.guna2GradientPanel1.TabIndex = 18;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(62)))), ((int)(((byte)(252)))));
+            this.label7.Location = new System.Drawing.Point(159, 4);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(209, 23);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "Clientes Cadastrados";
+            // 
             // dgvlista
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
@@ -357,7 +369,7 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvlista.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvlista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvlista.ColumnHeadersHeight = 21;
             this.dgvlista.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
@@ -392,7 +404,7 @@
             this.dgvlista.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgvlista.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.dgvlista.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.dgvlista.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvlista.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.dgvlista.ThemeStyle.HeaderStyle.Height = 21;
             this.dgvlista.ThemeStyle.ReadOnly = false;
             this.dgvlista.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
@@ -403,18 +415,6 @@
             this.dgvlista.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.White;
             this.dgvlista.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(82)))), ((int)(((byte)(255)))));
             this.dgvlista.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(62)))), ((int)(((byte)(252)))));
-            this.label7.Location = new System.Drawing.Point(159, 4);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(209, 23);
-            this.label7.TabIndex = 19;
-            this.label7.Text = "Clientes Cadastrados";
             // 
             // Column1
             // 

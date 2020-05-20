@@ -51,9 +51,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-20, -3);
+            this.pictureBox1.Location = new System.Drawing.Point(-20, -9);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(493, 457);
+            this.pictureBox1.Size = new System.Drawing.Size(450, 463);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -90,15 +90,15 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(128, 175);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(207, 44);
+            this.label2.Size = new System.Drawing.Size(219, 44);
             this.label2.TabIndex = 3;
-            this.label2.Text = "We Creat, We Design,\r\n We Develop";
+            this.label2.Text = "We Create, We Design,\r\n We Develop";
             // 
             // guna2PictureBox2
             // 
             this.guna2PictureBox2.BackColor = System.Drawing.Color.White;
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.Location = new System.Drawing.Point(590, 28);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(492, 28);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
             this.guna2PictureBox2.Size = new System.Drawing.Size(121, 107);
@@ -112,7 +112,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(111)))), ((int)(((byte)(255)))));
-            this.label3.Location = new System.Drawing.Point(552, 138);
+            this.label3.Location = new System.Drawing.Point(454, 138);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(200, 22);
             this.label3.TabIndex = 5;
@@ -136,7 +136,7 @@
             this.txtEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(111)))), ((int)(((byte)(255)))));
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.HoverState.Parent = this.txtEmail;
-            this.txtEmail.Location = new System.Drawing.Point(536, 183);
+            this.txtEmail.Location = new System.Drawing.Point(438, 183);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(5);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';
@@ -152,7 +152,7 @@
             // 
             this.guna2PictureBox3.BackColor = System.Drawing.SystemColors.Control;
             this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
-            this.guna2PictureBox3.Location = new System.Drawing.Point(546, 191);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(447, 191);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
             this.guna2PictureBox3.ShadowDecoration.Parent = this.guna2PictureBox3;
             this.guna2PictureBox3.Size = new System.Drawing.Size(34, 28);
@@ -164,7 +164,7 @@
             // 
             this.guna2PictureBox4.BackColor = System.Drawing.SystemColors.Control;
             this.guna2PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox4.Image")));
-            this.guna2PictureBox4.Location = new System.Drawing.Point(546, 275);
+            this.guna2PictureBox4.Location = new System.Drawing.Point(447, 275);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.ShadowDecoration.Parent = this.guna2PictureBox4;
             this.guna2PictureBox4.Size = new System.Drawing.Size(34, 28);
@@ -182,7 +182,7 @@
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(567, 352);
+            this.guna2Button1.Location = new System.Drawing.Point(469, 352);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(180, 45);
@@ -208,7 +208,7 @@
             this.txtSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(111)))), ((int)(((byte)(255)))));
             this.txtSenha.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSenha.HoverState.Parent = this.txtSenha;
-            this.txtSenha.Location = new System.Drawing.Point(536, 265);
+            this.txtSenha.Location = new System.Drawing.Point(438, 265);
             this.txtSenha.Margin = new System.Windows.Forms.Padding(5);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PasswordChar = '*';
@@ -246,7 +246,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(819, 447);
+            this.ClientSize = new System.Drawing.Size(700, 447);
             this.Controls.Add(this.Close);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2PictureBox4);
@@ -257,8 +257,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtSenha);
+            this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(5);
